@@ -5,9 +5,9 @@ public class DefaultCountingOutRhymer {
     private static final int TOTAL_NUMBERS = 12;
     private static final int TOTAL_START = -1;
     private static final int ERROR_CODE_DEFAULT = -1;
-    private int[] numbers = new int[TOTAL_NUMBERS];
+    private final int[] numbers = new int[TOTAL_NUMBERS];
 
-    public int total = TOTAL_NUMBERS;
+    public int total = TOTAL_START;
 
     public void countIn(int in) {
         if (!isFull())
