@@ -3,7 +3,7 @@ package edu.kis.vh.nursery;
 import org.junit.Assert;
 import org.junit.Test;
 
-public class RhymersJUnitTest {
+public class RhymersJUnitTest { //15. Dokonano walidacji projektu testami jednostkowymi
 
     @Test
     public void testCountIn() {
