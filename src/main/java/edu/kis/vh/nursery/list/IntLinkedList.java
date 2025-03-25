@@ -5,7 +5,7 @@ package edu.kis.vh.nursery.list;
  * and retrieving the top element.
  */
 
-public class IntLinkedList {
+public class IntLinkedList {                // TODO: nieużywana klasa, można ją usunąć
 
     Node last;
     int i;
