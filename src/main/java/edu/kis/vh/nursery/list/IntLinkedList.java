@@ -1,6 +1,11 @@
 package edu.kis.vh.nursery.list;
 
-public class IntLinkedList {
+/**
+ * A simple integer linked list implementation that allows pushing, popping,
+ * and retrieving the top element.
+ */
+
+public class IntLinkedList {                // TODO: nieużywana klasa, można ją usunąć
 
     Node last;
     int i;
@@ -37,4 +42,22 @@ public class IntLinkedList {
         return ret;
     }
 
+}
+
+/**
+ * A node in the doubly linked list that stores an integer value.
+ */
+
+class Node {
+
+    private int value;
+    protected Node prev, next;
+
+    public Node(int i) {
+        value = i;
+    }
+
+    public int getValue() {
+        return value;
+    }
 }
